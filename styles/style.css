@@ -16,6 +16,9 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -36,26 +39,30 @@ ul,
 ol {
   list-style: none;
 }
-.page{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .content {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 30px;
-  width: 1140px;
+  padding: 133px 30px;
+}
+.result{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 78px;
 }
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
+  width: 100%;
 }
 .content__list {
-  height: 382px;
+  height: 265px;
   overflow-y: auto;
   position: relative;
+  width: 400px;
 }
 
 .content__list::-webkit-scrollbar-thumb {
@@ -82,10 +89,13 @@ ol {
   gap: 26px;
   display: flex;
   flex-direction: column;
+  align-self: flex-start;
 }
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
+  object-fit:cover;
+  object-position:center;
 }
 .result__video-container {
   width: 711px;
@@ -128,6 +138,7 @@ video {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
+  margin-bottom: 26px;
 }
 .content__accent {
   color: #545050;
@@ -150,6 +161,7 @@ video {
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 100%;
 }
 .content__video-card-description {
   padding-top: 6px;
@@ -213,11 +225,10 @@ button:focus-visible {
   padding: 4px 73.5px;
 }
 .more-button {
-  padding: 7px 142px;
-  margin-bottom: 80px;
+  padding: 7px 137px;
 }
 .search-form__textfield {
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
   font-family: Fira Sans Condensed;
   font-size: 18px;
   font-style: normal;
