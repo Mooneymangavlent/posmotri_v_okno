@@ -38,9 +38,8 @@ ol {
 }
 
 .content {
-  margin: 123px 38px;
+  padding: 118px 28px;
   display: flex;
-  justify-content: center;
   align-items: flex-end;
   width: 1140px;
   gap: 30px;
