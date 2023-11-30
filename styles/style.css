@@ -57,6 +57,7 @@ ol {
 .content__list {
   height: 310px;
   overflow-y: auto;
+  position: relative;
 }
 
 .content__list::-webkit-scrollbar-thumb {
@@ -97,7 +98,6 @@ ol {
 video {
   width: 100%;
   height: 100%;
-  position: absolute;
   object-fit: cover;
   object-position: center;
 }
