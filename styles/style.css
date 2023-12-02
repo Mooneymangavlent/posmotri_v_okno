@@ -59,7 +59,7 @@ ol {
   width: 100%;
 }
 .content__list {
-  height: 268px;
+  height: 298px;
   overflow-y: auto;
   position: relative;
   width: 400px;
@@ -110,7 +110,9 @@ video {
 .content__list-item:not(:last-child) {
   margin-bottom: 30px;
 }
-
+.content__list-item:active{
+  background-color: #545050;
+}
 .content__video-card {
   display: flex;
   align-items: flex-start;
@@ -234,6 +236,7 @@ button:focus-visible {
 }
 .search-form__submit-button {
   padding: 6px 73.5px;
+  align-self: flex-end;
 }
 .more-button {
   padding: 6px 136px;
