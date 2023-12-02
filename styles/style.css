@@ -59,8 +59,8 @@ ol {
   width: 100%;
 }
 .content__list {
-  /* height: 298px; */
-  height: 277px;
+  height: 298px;
+  /* height: 272px; */
   overflow-y: auto;
   position: relative;
   width: 400px;
@@ -237,8 +237,8 @@ button:focus-visible {
 }
 .search-form__submit-button {
   padding: 6px 73.5px;
-  /* align-self: flex-end; */
-  align-self: center;
+  align-self: flex-end;
+  /* align-self: center; */
 }
 .more-button {
   padding: 6px 136px;
