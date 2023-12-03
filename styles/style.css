@@ -109,7 +109,7 @@ video {
 .content__list-item:not(:last-child) {
   margin-bottom: 30px;
 }
-.content__list-item:active{
+.content__list-item:active {
   background-color: #545050;
 }
 .content__video-card {
@@ -215,7 +215,9 @@ fieldset {
   gap: 15px;
 }
 
-.search-form__label:hover .search-form__pseudo-checkbox~.search-form__label-text{
+.search-form__label:hover
+  .search-form__pseudo-checkbox
+  ~ .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -247,7 +249,6 @@ button:focus-visible {
 .search-form__submit-button {
   width: 194px;
   align-self: flex-end;
-  
 }
 .more-button {
   width: 399px;
@@ -276,14 +277,13 @@ input[type="checkbox"] + span {
   border: 1px solid #fff;
   width: 19px;
   height: 19px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 input[type="checkbox"]:checked + span {
   background-color: #fff;
   outline: 1px solid black;
   outline-offset: -2px;
-  
 }
 .search-form__label-text {
   padding-left: 5px;
